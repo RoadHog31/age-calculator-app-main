@@ -68,18 +68,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Building my project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+My workflow process in steps below:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
+1. Initialize your project as a public repository on [GitHub](https://github.com/). 
+2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
 3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
 4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
 ## Deploying my project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
 - [GitHub Pages](https://pages.github.com/)
 
@@ -107,8 +105,6 @@ const proudOfThisFunc = () => {
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [Example resource 1](https://styled-components.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
@@ -117,6 +113,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Stephen Pino](https://roadhog31.github.io/stephenpinoprofile/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@RoadHog31](https://www.frontendmentor.io/profile/RoadHog31)
 
 

@@ -55,6 +55,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+1. Gather Requirements
+2. Discover inputs, processes and outputs - see below.
+3. (Sequence, Selection, iteration)
+4. TDD compare expected and actual results
+5. Write program in pseudo code.
+5. Now code!
+
+-HTML storage api - get and set items
+Get input data - do checks for validation
+
+-Session storage
+-Date object 
+-min max
+-required
+-Process input from Date.time now - output to screen.
+-May use ajax  
+
+
 ### Built with
 
 - Semantic HTML5 markup

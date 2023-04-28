@@ -71,7 +71,7 @@ Get input data - do checks for validation
 -required
 -Process input from Date.time now - output to screen.
 -May use ajax  
-
+-Try out Sass for variable usage.
 
 ### Built with
 

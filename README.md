@@ -62,12 +62,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 5. Write program in pseudo code.
 5. Now code!
 
+## My Initial thoughts
 -HTML storage api - get and set items
 Get input data - do checks for validation
 
 -Session storage
 -Date object 
--min max
+-min maxLength
 -required
 -Process input from Date.time now - output to screen.
 -May use ajax  

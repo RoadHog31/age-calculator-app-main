@@ -9,3 +9,14 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+
+/*
+  ========================================
+ Button / Icon 👍 👋 🎉 🚀
+  ========================================
+*/
+.btnIcon {
+  border-radius: 50%;
+  border-color: blueviolet;
+  color: blueviolet;
+}

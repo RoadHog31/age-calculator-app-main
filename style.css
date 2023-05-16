@@ -8,8 +8,6 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
-
 /*
   ========================================
  Button / Icon 👍 👋 🎉 🚀
@@ -20,3 +18,63 @@
   border-color: blueviolet;
   color: blueviolet;
 }
+
+/*
+  ========================================
+ Inline Form 👍 👋 🎉 🚀
+  ========================================
+*/
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+.form-inline button {
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+/*.form-inline button:hover {
+  background-color: royalblue;
+}*/
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+

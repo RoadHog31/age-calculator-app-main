@@ -1,14 +1,10 @@
 function ageCalculator() { 
     
         //collect input from HTML form and convert into date format  
-        //var userinput = document.getElementById("DOB").value;  
-        //var dob = new Date(userinput);
-        
+              
         let userYear = document.getElementById("year").value;
         let userMonth = document.getElementById("month").value;
         let userDay = document.getElementById("day").value; 
-        
-        //let userinput = new Date(userYear, userMonth - 1, userDay);
         
         let result = document.getElementById("yearmessage");
     
@@ -36,16 +32,10 @@ function ageCalculator() {
         }
         //execute if user entered a date   
         else {  
-        //extract and collect only date from date-time string  
-        //let mdate = userinput.toString();  
-        //let dobYear = parseInt(mdate.substring(0,4), 10);  
-        //let dobMonth = parseInt(mdate.substring(5,7), 10);  
-        //let dobDate = parseInt(mdate.substring(8,10), 10);  
-          
+                 
         //get the current date from system  
         let today = new Date();  
         //date string after broking  
-        //let birthday = new Date(dobYear, dobMonth-1, dobDate);
         let birthday = new Date(userYear, userMonth - 1, userDay);
           
         //calculate the difference of dates  
@@ -72,7 +62,6 @@ function ageCalculator() {
             document.getElementById("yearmessage").innerHTML = "Invalid date input - Please try again!";  
           }  
           else {  
-            //document.getElementById("result").innerHTML = year_age + " years " + month_age + " months " + day_age + " days"
             document.getElementById("yearresult").innerHTML = "";
             document.getElementById("monthresult").innerHTML = "";
             document.getElementById("dayresult").innerHTML = "";

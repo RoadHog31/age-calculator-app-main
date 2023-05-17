@@ -76,5 +76,23 @@
   }*/
 }
 
+/*
+  ========================================
+ User output list 👍 👋 🎉 🚀
+  ========================================
+*/
+ul li {
+
+  list-style-type: none;
+}
+
+.mainbackground {
+
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 5px lightblue;
+  border-radius: 0 0 75px 0;
+
+}
+
 
 

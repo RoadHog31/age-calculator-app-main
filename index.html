@@ -10,7 +10,7 @@
   </head>
 <body>
 
-
+  <div class="mainbackground" style="margin: 0px 50px 0px 50px;">
   <form class="form-inline" action="/script.js" method="post">
     <label for="day">DAY</label>
     <input type="number" id="day" name="day"
@@ -27,24 +27,23 @@
   
   </form>
   
-<div class="">
+  <div class="">
+    <ul>
+      <li><output id="yearOutput">-- </output>
+        <label id="yearOut" for="yearOutput">years</label></li>
+      <li><output id="monthOutput">-- </output>
+        <label id="monthOut" for="monthOutput">months</label></li>
+      <li><output id="dayOutput">-- </output>
+        <label id="dayOut" for="dayOutput">days</label></li>
+    </ul>      
+  </div>
 
-  <ul>
-    <li><output id="yearOutput">-- </output>
-      <label id="yearOut" for="yearOutput">years</label></li>
-    <li><output id="monthOutput">-- </output>
-      <label id="monthOut" for="monthOutput">months</label></li>
-    <li><output id="dayOutput">-- </output>
-      <label id="dayOut" for="dayOutput">-- days</label></li>
-  </ul>
-   
-  
-</div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Stephen Pino</a>.
   </div>
+</div>
 
   <script type="text/javascript" src="/script.js"></script>
 </body>
